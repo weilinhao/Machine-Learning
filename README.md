@@ -1,3 +1,14 @@
-# My Awesome Book
+# 参数估计
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+参数估计得方法
+
+1. 点估计
+
+2. 矩估计
+3. 极大似然估计
+
+参数估计得评价：
+1. 一致性
+
+2. 。。。
+
