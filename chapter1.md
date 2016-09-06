@@ -24,9 +24,9 @@ $$J ( \theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m\left( h_\theta(x^{(i)})-y^{(i
 
 ## 3.1 Batch Gradient Descent
 
-$repeat until convergence{
+$$repeat until convergence{
 
-}$
+}$$
 
 ## 3.2 SGD
 
