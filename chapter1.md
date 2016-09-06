@@ -16,7 +16,9 @@
 
 目标是选择出可以使得建模误差的平方和能够最小的模型参数。即使得代价函数
 
-$$J ( \theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m\left\( h_\theta(x^{(i)})-y^{(i)}\right \)^2$$
+$$J ( \theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m\left( h_\theta(x^{(i)})-y^{(i)}\right)^2$$
+
+最小。
 
 # 3. 梯度下降 Gradient Descent
 
