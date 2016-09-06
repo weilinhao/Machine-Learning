@@ -10,7 +10,11 @@
 
 大于一个自变量的情况叫做多元回归。
 
-# 2. 损失函数 Penalty Function 
+# 2. 代价函数 Cost Function
+
+假设函数 $$h\_\theta\(x\)=\theta\_0+\theta\_1x$$
+
+
 
 # 3. 梯度下降 Gradient Descent
 
