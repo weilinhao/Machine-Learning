@@ -38,11 +38,14 @@ _0$$和$$\theta_1$$的值，然后同时更新$$\theta_0$$和$$\theta_1$$。
 
 具体为：
 
-$$
-
-temp0:=\theta{\_0}
 
 $$
+temp0:=\theta_0-\alpha\frac{\partial}{\partial\theta_0}J(\theta_0,\theta_1) \\
+temp1:=\theta_1-\alpha\frac{\partial}{\partial\theta_1}J(\theta_0,\theta_1) \\
+\theta_0:=temp0\\
+\theta_1:=temp1
+$$
+
 
 ## 3.2 SGD
 
