@@ -24,10 +24,16 @@ $$J ( \theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m\left( h_\theta(x^{(i)})-y^{(i
 
 ## 3.1 Batch Gradient Descent
 
+批量梯度下降算法公式为：
+
 $$repeat \ until \ convergence \{ \\
- \theta_j := \theta_j -\alpha\frac{\partial}{\partial\theta_j}J(\theta_0,\theta_1) ~~ (for \ j=0 \ and \j=1) \\
+ \theta_j := \theta_j -\alpha\frac{\partial}{\partial\theta_j}J(\theta_0,\theta_1) ~~ (for \ j=0 \ and \ j=1) \\
 
 \}$$
+
+其中$$\alpha$$是学习率（**learning rate**），它决定了我们沿着能让代价函数下降程度最大的方向向下迈出的步子有多大，在批量梯度下降中，我们每一次都同时让所有的参数减去学习速率乘以代价函数的导数。
+
+需要的
 
 ## 3.2 SGD
 
