@@ -12,9 +12,11 @@
 
 # 2. 代价函数 Cost Function
 
-假设函数 $$h\_\theta\(x\)=\theta\_0+\theta\_1x$$
+假设函数 $$h_\theta(x)=\theta_0+\theta_1x$$
 
+目标是选择出可以使得建模误差的平方和能够最小的模型参数。即使得代价函数
 
+$$J\(\theta \_0, \theta \_1 \)=frac{1}{2m} \sum \_{i=1} ^m \left \\( h \_\theta \left \\( x ^ {\(i\)}-y ^{\(i\)} \right \\) ^2$$
 
 # 3. 梯度下降 Gradient Descent
 
